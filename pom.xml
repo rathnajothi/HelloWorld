@@ -55,7 +55,7 @@
 <distributionManagement>
     <repository>
 	<id>nexus</id>
-    	<name>maven-group</name>
+    	<name>MyRepo</name>
 	<url>http://localhost:8083/repository/MyRepo</url>
     </repository>   
 </distributionManagement> 
