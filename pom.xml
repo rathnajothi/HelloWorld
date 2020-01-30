@@ -56,7 +56,7 @@
     <repository>
 	<id>nexus</id>
     	<name>MyRepo</name>
-	<url>http://localhost:8083/repository/MyRepo</url>
+	<url>http://localhost:8083/repository/MyRepo/</url>
     </repository>   
 </distributionManagement> 
 </project>
