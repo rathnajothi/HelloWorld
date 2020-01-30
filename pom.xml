@@ -4,7 +4,7 @@
 	<groupId>org.ravi</groupId>
 	<artifactId>Helloworld</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.12</version>
 	<name>HelloWorld Maven Webapp</name>
 	<url>http://maven.apache.org</url>
   <build>
@@ -56,7 +56,7 @@
     <repository>
 	<id>nexus</id>
     	<name>DemoRepo</name>
-	<url>http://localhost:8083/repository/MyRepo/</url>
+	<url>http://localhost:8083/repository/DemoRepo/</url>
     </repository>   
 </distributionManagement> 
 </project>
