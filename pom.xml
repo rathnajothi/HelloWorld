@@ -53,10 +53,15 @@
     
 </dependencies>
 <distributionManagement>
-    <repository>
-	<id>nexus</id>
-    	<name>MyRepo</name>
-	<url>http://localhost:8083/repository/MyRepo/</url>
-    </repository>   
+<repository>
+<id>nexus</id>
+<name>maven-releases</name>
+<url>http://localhost:8083/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>nexus</id>
+<name>maven-snapshots</name>
+<url>http://localhost:8083/repository/maven-snapshots/</url>
+</snapshotRepository>
 </distributionManagement> 
 </project>
